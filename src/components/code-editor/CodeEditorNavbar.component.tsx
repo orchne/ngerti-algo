@@ -31,7 +31,7 @@ const CodeEditorNavbar: React.FC<ICodeEditorNavbar> = ({
 
   return (
     <div className="bg-gray-900">
-      <div className="relative flex flex-col items-center w-[98px]">
+      <div className="relative flex flex-col items-center w-[98px] py-2">
         <button
           onClick={() => setIsOpen(!isOpen)}
           className="rounded-full text-white flex items-center gap-2"
